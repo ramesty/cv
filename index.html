@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title> Rodrigo's personal cheese</title>
+</head>
+
+<!-- Body of the website, contains lists and a biography
+also uses "a" or anchor tag which is used to add links to website-->
+<body>
+  <!-- Creating a table to add some form of layout to our picture and biography-->
+  <table>
+    <tr>
+      <td>
+        <!-- code for the image -->
+        <img src="images/IMG_0977.jpg" alt="Picture of Rodrigo playing ball"
+        width=300 height=200>
+      </td>
+      <td>
+        <!-- Code for the main biography in the website-->
+        <h1>Rodrigo Amesty</h1>
+        <p><em>Software engineering student</em></p>
+        <p>
+          Currently a software engineering a the <a href="https://www.ucalgary.ca/">university of calgary</a>.
+          Loves playing guitar and <a href="https://www.youtube.com/watch?v=LAr6oAKieHk">basketball</a>, pretty good at both.
+          Also enjoys going out with family and friends when not studying.
+        </p>
+      </td>
+    </tr>
+  </table>
+
+<!-- Horizantal rule for seperation-->
+  <hr>
+<!-- Two lists, one ordered the other unordered-->
+  <h3>Education</h3>
+    <ul>
+      <li>Dr. E.P Scarlett</li>
+      <li>University of Calgary</li>
+    </ul>
+<!-- Table of all my work experience, has table rows filled with cells of data-->
+  <h3>Work Experience</h3>
+  <table border=1>
+    <tr>
+      <td>Superstore</td>
+      <td>2016-17</td>
+    </tr>
+    <tr>
+      <td>Canadian Tire</td>
+      <td>2017-2020</td>
+    </tr>
+    <tr>
+      <td>ACE Vegetation</td>
+      <td>2020-2021</td>
+    </tr>
+  </table>
+  <!-- Table to demonstrate all of my skills-->
+  <h3>Skills</h3>
+
+  <!-- Basically the idea is a nested table, 1 table is a cell and the other
+  table is another cell. Each table has two columns, ex, java and 5.-->
+  <table border="1">
+    <tr>
+      <td>
+        <table>
+          <tr>
+            <td>Java</td>
+            <td>5</td>
+          </tr>
+        </table>
+      </td>
+
+      <td>
+        <table>
+          <tr>
+            <td>C/C++</td>
+            <td>4</td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+<!-- We can then add another row to the nested table, and fill that row with
+another table-->
+    <tr>
+      <td>
+        <table>
+          <tr>
+            <td>Java</td>
+            <td>5</td>
+          </tr>
+        </table>
+      </td>
+
+      <td>
+        <table>
+          <tr>
+            <td>C/C++</td>
+            <td>4</td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+  <hr>
+  <!-- Bellow are links used to take the user to different sections of the webpage-->
+  <h3><a href="hobbies.html">My Hobbies</a> <a href="contact.html">Contact info</a></h3>
+
+</body>
+
+</html>
